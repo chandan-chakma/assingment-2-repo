@@ -319,6 +319,9 @@ p{
     .company-logo{
         text-align: center;
     }
+    .image{
+        width: 100%;
+    }
     .featured{
         flex-direction: column;
     }
@@ -327,7 +330,21 @@ p{
     }
    
 }
-@media only screen and (min-width:688px) and (max-width:992px) {
+@media only screen and (min-width:688px) and (max-width:1000px) {
+    .container{
+        width: 100%;
+    }
+    .influencer,
+     .logos, 
+     .featured{
+        flex-direction: column;
+        text-align: center;
+     }
+     .products, .photoes{
+        grid-template-columns: repeat(2, 2fr);
+    }
+}
+@media only screen and (min-width:1000px) and (max-width:1200px) {
     .container{
         width: 100%;
     }
