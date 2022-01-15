@@ -84,16 +84,26 @@ li a{
 
 }
 .image{
-    border: 1px solid rgb(165, 165, 165);
+    border: 1px solid rgb(226, 225, 225);
     border-radius: 50%;
+    background-image: url(images/Circle\ design.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     
 }
-.img{
+.animation img{
     width: 440px;
     height: 414px;
     border: 1px solid rgb(177, 177, 177);
     border-radius: 100%;
+    
    
+}
+.animation:hover{
+    transform: rotate(180deg) scale(0.8);
+    transition: transform 2s;
+
 }
 
 /*-------- infulencer section style end--------- */
@@ -132,7 +142,6 @@ li a{
   grid-template-columns: repeat(3, 1fr); 
   grid-row-gap: 23px;
   justify-items: center;
-  
   
 }
 .product{
@@ -184,3 +193,18 @@ p{
     font-weight: 700;
     
 }
+.product-button{
+    border-radius: 41px;
+    color: #E02C6D;
+    margin-top: 16px;
+    float: right;
+    margin: 10px;
+}
+ a{
+    text-decoration: none;
+    padding: 10px 24px;
+    text-transform: capitalize;
+    font-size: 16px;
+    font-weight: 700;
+}
+/*-------- collection section style end------ *
