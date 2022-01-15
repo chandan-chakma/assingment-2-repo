@@ -299,7 +299,7 @@ p{
     color: indigo;
 }
 /* responsive design */
-@media only screen and (max-width:382px) {
+@media only screen and (max-width:682px) {
     
     .container{
         width: 100%;
@@ -329,20 +329,6 @@ p{
         width: 25%;
     }
    
-}
-@media only screen and (min-width:388px) and (max-width:682px) {
-    .container{
-        width: 100%;
-    }
-    .influencer,
-     .logos, 
-     .featured{
-        flex-direction: column;
-        text-align: center;
-     }
-     .products, .photoes{
-        grid-template-columns: repeat(2, 2fr);
-    }
 }
 @media only screen and (min-width:688px) and (max-width:992px) {
     .container{
