@@ -299,7 +299,7 @@ p{
     color: indigo;
 }
 /* responsive design */
-@media only screen and (max-width:682px) {
+@media only screen and (max-width:382px) {
     
     .container{
         width: 100%;
@@ -330,7 +330,7 @@ p{
     }
    
 }
-@media only screen and (min-width:688px) and (max-width:1000px) {
+@media only screen and (min-width:388px) and (max-width:682px) {
     .container{
         width: 100%;
     }
@@ -344,7 +344,7 @@ p{
         grid-template-columns: repeat(2, 2fr);
     }
 }
-@media only screen and (min-width:1000px) and (max-width:1200px) {
+@media only screen and (min-width:688px) and (max-width:992px) {
     .container{
         width: 100%;
     }
